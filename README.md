@@ -31,6 +31,7 @@ api-health-dashboard/
 ├─ results.json     检测结果输出文件（运行后生成）
 ├─ requirements.txt 项目依赖
 ├─ README.md        项目说明文档
+```
 
 ## 运行环境
 
@@ -44,17 +45,19 @@ api-health-dashboard/
 
 先在项目目录下运行：
 
+```text
 pip install -r requirements.txt
-
+```
 如果你还没有 requirements.txt，可以写成：
 
 requests
+
 ## 配置检测目标
 
 项目通过 targets.json 文件读取待检测接口信息。
 
 一个简单的配置示例如下：
-
+```text
 [
   {
     "name": "微软官网",
@@ -81,6 +84,7 @@ requests
     "timeout": 5
   }
 ]
+```
 ## 字段说明
 
 - name：检测目标名称，便于终端输出和结果识别
