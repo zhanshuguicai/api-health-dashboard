@@ -1,0 +1,38 @@
+[
+  {
+    "name": "微软官网",
+    "url": "https://www.microsoft.com",
+    "method": "GET",
+    "success": true,
+    "status_code": 200,
+    "response_time": 0.212,
+    "error": ""
+  },
+  {
+    "name": "HTTPBin 状态码 200",
+    "url": "https://httpbin.org/status/200",
+    "method": "GET",
+    "success": true,
+    "status_code": 200,
+    "response_time": 1.57,
+    "error": ""
+  },
+  {
+    "name": "HTTPBin 状态码 404",
+    "url": "https://httpbin.org/status/404",
+    "method": "GET",
+    "success": false,
+    "status_code": 404,
+    "response_time": 1.083,
+    "error": ""
+  },
+  {
+    "name": "Python官网",
+    "url": "https://www.python.org",
+    "method": "GET",
+    "success": false,
+    "status_code": null,
+    "response_time": 5.011,
+    "error": "HTTPSConnectionPool(host='www.python.org', port=443): Read timed out. (read timeout=5)"
+  }
+]

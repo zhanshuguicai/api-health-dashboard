@@ -1,0 +1,26 @@
+[  
+ {
+  "name": "微软官网",
+  "url": "https://www.microsoft.com",
+  "method": "GET",
+  "timeout": 5
+  },
+  {
+    "name": "HTTPBin 状态码 200",
+    "url": "https://httpbin.org/status/200",
+    "method": "GET",
+    "timeout": 5
+  },
+  {
+    "name": "HTTPBin 状态码 404",
+    "url": "https://httpbin.org/status/404",
+    "method": "GET",
+    "timeout": 5
+  },
+  {
+    "name": "Python官网",
+    "url": "https://www.python.org",
+    "method": "GET",
+    "timeout": 5
+  }
+  ]
